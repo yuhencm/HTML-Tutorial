@@ -6,10 +6,12 @@
   <!-- 下のインプットフォームに入力値チェックを追加する -->
   <input 
     type="text" 
-    id="username" 
+    id="username"
     name="username" 
     placeholder="ユーザー名を入力してください"
-    
+    minlength="4"
+    maxlength="10"
+    required
   >
 
   <input type="submit" value="送信">
